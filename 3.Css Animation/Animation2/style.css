@@ -1,0 +1,19 @@
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation-name:boxAnimation;
+    animation-duration:4s;
+}
+
+@keyframes boxAnimation{
+
+0% {background-color: red;}
+25%{background-color: yellow;}
+50%{background-color: blue;}
+75%{background-color: green;}
+100%{background-color: brown;}
+
+
+}
