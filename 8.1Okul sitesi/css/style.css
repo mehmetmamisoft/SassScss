@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li{
+    margin-top: 10px ;
+
+}
+
+main{
+    padding-top:40px;
+}
+
+#schoolCards {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#schoolProjects{
+    padding-bottom: 70px;
+}
+
+#schoolFamilyMember{
+    padding-bottom: 70px;
+}

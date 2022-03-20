@@ -1,0 +1,13 @@
+https://getbootstrap.com/docs/4.4/getting-started/introduction/
+1.nav yaptuk içinde dropdown var expand(yatayda menu)
+2.banner ve slide
+<header id="banner" class="carousel slide" dataride="carousel"
+inner>item(1.active)>img sırasıyla format aynu
+sırada sağ ve sol ok var
+ve img içine captin kısmını ekle geç
+3.Main kısmı
+div.container içine card-deck(hizalama) verdik cardların height ayarını yapıyık!!!
+bunları 5 tane section içine yaydık ve kısmi olarak css ekleduk
+
+4.main animasyon 
+w-100(100%genişlik)text-white yazı stili beyaz container-fluid(tam ekran)
