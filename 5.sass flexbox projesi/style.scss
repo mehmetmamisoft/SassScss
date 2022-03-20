@@ -1,0 +1,76 @@
+// *{
+//    box-sizing: border-box;
+//    margin: 0;
+//    padding:0;
+//  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   border: 1px solid black; 
+   background-color:#333333 ;
+   width: 100%;
+   height: 47px;
+   /*nav ul a li yerine bunu yazcez*/
+   ul{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       a{
+           color:white;
+           text-decoration: none;
+           &:hover{
+             color: #333333;
+            }
+           &:hover li{
+             background-color: whitesmoke;
+
+           }
+          li{
+           display: inline-block;
+           padding: 15px;
+        //    border: 1px solid black;
+           float:left;/*yanyana hizlaa ama boşlukları sıfırla*/
+            
+            }
+        
+
+         }
+      }
+}
+
+.flexbox-Container{
+    display: flex;
+    border: 10px solid black;
+    height: auto;
+
+
+}
+.leftSide{
+    padding: 20px;
+    background-color:whitesmoke;
+    flex: 25%;
+    // img{
+    //     width: 100%;
+    //     height: 100px;
+    // }
+     
+}
+
+main{
+    padding: 20px;
+    background-color: brown;
+    flex: 75%;
+    h1{
+        color:white;
+      }
+    img{
+        width: 100%;
+        height:300px ;
+        background-size: contain;/**sığdırma işlemi/
+
+      }
+
+}

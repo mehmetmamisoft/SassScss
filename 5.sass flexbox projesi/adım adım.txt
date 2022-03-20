@@ -1,0 +1,15 @@
+nav verdik scss verdik
+body margin padding 0 verdik
+ul içinde-->list-style-type: none;(noktalardan kurtulduk!!!)
+a içinde --> text-decoration: none;(altçizgiyi kaldur)
+li içinde--> display: inline-block;(menüyü yanyana getirdik!!!)
+border kaldırmak için box-sizing yapıyık onun yerine nav height:auto yaparuz
+em altta scroll bar çıktı çözümü
+*{ box-sizing:border-box}
+**************************flexbox yapısına gelduk
+floata gerek duymadan display:flex yaptuk!!!
+style css kodlarını ezer unutma
+main altında img  background-size: contain;/**sığdırma işlemi/
+
+
+
