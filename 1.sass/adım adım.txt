@@ -1,0 +1,18 @@
+koala sass a gir http://koala-app.com/
+
+eklentilerden vs-code içinde sass ekle
+
+css'i program diline benzetme programıdır!
+
+variable if else fonk ; ve {} olmayacak!!!
+
+scss ; ve {} kullanımı vardır!!!
+
+index ve style.sass ekleduk
+
+kolayı aç dosya aç sass seç
+
+otomatik olarak style.css ve map attu!!!
+
+live sass complier yükledik vs code içine css otomatik geliyur!!!
+

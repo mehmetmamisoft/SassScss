@@ -1,0 +1,14 @@
+fot-size ve border 3 tanesinde ortak biz kestik
+
+.set
+    border: 1px solid black   
+    font-size: 20px 
+
+burası 2 ayrı class tanımladuk ve extend koyduk!
+.firstPr    
+    color: brown  
+    @extend .set  
+
+.secondPr    
+    color: brown  
+    @extend .set 

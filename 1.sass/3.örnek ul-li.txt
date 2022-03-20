@@ -1,0 +1,11 @@
+ul-li kutucuk sistemi yapcez!!!
+*
+    margin: 0
+    padding: 0
+ul
+    list-style-type: none
+    li        
+        display: inline-block // yanyana getir
+        border: 1px solid black
+        float: left
+        padding: 10px

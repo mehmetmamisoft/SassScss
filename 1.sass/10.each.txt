@@ -1,0 +1,11 @@
+Each kullanımı ve ıcon için bunu deniyoruz
+
+$sizes: 40px,60px,80px
+
+
+@each $size in $sizes
+
+    .icon-#{$size}
+        width: $size
+        height: $size
+        border: 1px solid red

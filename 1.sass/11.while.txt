@@ -1,0 +1,10 @@
+
+3 tane div id=wh-1 wh-2 wh-3 
+$i: 1
+@while $i <4
+    .wh-#{$i}
+        width: 100px
+        height: 100px
+        background-color: red
+        border: 1px solid black
+    $i: $i+1 //increment/decrement

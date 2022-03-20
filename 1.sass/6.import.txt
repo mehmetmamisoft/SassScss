@@ -1,0 +1,4 @@
+h1 ve h4 ekleduk
+reset.sass dosyası ekleduk body ve * kısmını ekledum!!!
+style.sass içinden reset.sass
+ @import "reset.sass" diye çağırdık

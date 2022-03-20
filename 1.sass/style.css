@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: orange;
+}
+
+h1 {
+  color: green;
+  font-size: 50px;
+}
+
+h1 else {
+  color: brown;
+  font-size: 34px;
+}
+
+h4 {
+  color: yellow;
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */

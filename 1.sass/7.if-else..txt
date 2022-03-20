@@ -1,0 +1,15 @@
+****************1
+mobil cihazda böyle  tablette böyle şart yazabilirsin!!!
+$control: 1
+
+h1
+    @if ($control==2)
+        color: white
+        font-size: 50px
+    else
+    color: yellow
+    font-size: 36px
+
+h4
+    color: brown    
+    font-size: 30px

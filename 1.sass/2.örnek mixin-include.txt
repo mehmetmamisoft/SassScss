@@ -1,0 +1,26 @@
+@mixin değeri karşılığı include
+
+@mixin divleriAyarla()
+    width: 200px
+    height: 200px
+    border: 1px solid black  
+.firstBox
+    @include divleriAyarla()
+
+*************************************************2*********
+@mixin divleriAyarla($width-size,$height-size,$color-variable)
+    width: $width-size
+    height: $height-size
+    border: 1px solid $color-variable  
+        
+    
+.firstBox
+    @include divleriAyarla(200px,100px,black)
+    
+
+.secondBox
+   @include divleriAyarla(300px,120px,red)
+    
+
+.thirdBox
+    @include divleriAyarla(400px,200px,orange)

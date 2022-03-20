@@ -1,0 +1,9 @@
+
+through 1-5 arası 5 dahil demek
+to 1-5 1 ve 5 arası ama 5 dahil değil demek!!!
+
+@for $i from 1 through 5
+     .item-#{$i}
+         border: 1px solid black
+         width: 100px*$i
+         height: 50px

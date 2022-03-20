@@ -1,0 +1,32 @@
+codepen
+***************1***************
+
+body 
+    background-color: orange
+        
+h1
+    color: red        
+h2 
+    color: brown   
+h3
+    color: black  
+
+***************2***************
+$ilk-baslik: red
+$ikinci-baslik: blue
+$ucuncu-baslik: yellow
+        
+h1
+    color: $ilk-baslik       
+h2 
+    color: $ikinci-baslik
+h3
+    color: $ucuncu-baslik
+p
+    color: $ikinci-baslik    
+
+$ilk:red
+h1{
+color:$ilk
+}
+

@@ -1,0 +1,15 @@
+
+   $background-blue:blue
+ $background-yellow:yellow
+ $background-brown:brown
+ $background-color: #333333
+ $background-orange: orange
+
+ $list: $background-blue,$background-yellow,$background-brown,$background-color,$background-orange
+
+ @for $i from 1 through 5
+      .item-#{$i}
+        border: 1px solid black
+        width: 100px*$i
+        height: 50px
+        background-color: nth($list,$i)
