@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.flexContainer{
+
+    background-color: gray;
+    /* display: block;normalde buydu */
+    display: flex;
+    /* flex-direction:column ;sütun halinde sırala */
+    /* flex-direction:column-reverse ;sütun halinde ters sırala */
+    /* flex-direction: row;varsayılan bu */
+    /* flex-wrap: wrap;18kutu aşağı sıralandı */
+     flex-flow:row wrap;/*üsttek, 2 özelliği verduk*/
+
+     /* justify-content: center;hizalamaya yarar!!! */
+     /* justify-content: space-around; */
+
+     /*align-items aşırı ortalamaya yarar!!!*/
+     height: 600px;
+     /* align-items: stretch;varsayılan bu */
+     align-items: flex-start;/*flex-start ve center var*/
+
+/*html içine flex-grow yaptuk*/
+/*html içine flex-safe mükemmel hizalama*/
+
+}
+
+.flexContainer div{
+
+    background-color: #333333;
+    padding: 50px;
+    margin: 10px;
+    color: white;
+}
