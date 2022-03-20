@@ -1,0 +1,17 @@
+css'e daha çok benzer
+*{
+tüm h1 p elemanlar hepsini margin ve padding değerini 0 yaptuk
+    margin: 0;
+    padding: 0;
+}
+
+$primary-color:#333333;
+$second-color:red;
+
+body{
+    background-color: $primary-color;
+
+}
+h1{
+    color: $second-color;
+}
