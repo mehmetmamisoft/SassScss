@@ -1,0 +1,70 @@
+2 türlü bir gömmeli 2si netten indiriyik!!
+bootstrap 4 ile daha hızlı çalışan  ve classlarla çalışır!!!
+bootstrap'e gir netten 4.4.1 indirik
+ -->https://getbootstrap.com/docs/4.4/getting-started/introduction/
+1.container ortalamaya yarar
+cont fluid -->tam ekran
+cont-fluid p-0 -->p-0 heryerden p'leri kaldır demek
+p5 son değer
+2.rounded top //rounded circle tam yuvarlak
+
+3.Grid
+Üç kutu justify-content display-flex gibi düşün
+container/row/col
+col-sm-->576px'e kadar col en kapsamlısı toplamı 12 col-7 col-4 col-1 
+<div class="row">
+   <div class="col-md border border-primary">1.1</div>
+   <div class="col-sm border border-secondary">1.2</div>
+   <div class="col-sm border border-info">1.3</div>
+</div>
+4.grid alignment
+row yanına ekle 
+row align-items-center(start,end)
+col-align-self başlangıçyeri tayin edilir!!!
+*****************************************************************
+5.Display (display-1-2-3-4)-->h1'ler gibi iş görür!!!
+6.Colors
+class="text-primary,secondary,success,dark,warning"
+text-black-50(opacity) text-white bg-dark(danger)
+
+7.img
+rounded (rounded-circle) //ve çerceve için rounded img-thumbnail
+
+8.jumbotron
+<div class="container">
+<div class="jumbotron"> 
+büyük boyut istersen container kaldır
+<div class="jumbotron jumbotron-fluid yeterli">
+
+9.Alert
+alert alert-info
+a link içine alert-link
+div class="alert alert-primary alert-dismissible fade show(yavaş kapama)">
+<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+10.Button
+btn btn-primary// btn-group
+input-->btn btn-outline-dark text-danger value="tıkla"
+
+<div class="container">
+
+<div class="btn-group">//burda btn-group-vertical yaparsan 
+    <button class="btn btn-secondary">AnaSayfa</button>
+    <button class="btn btn-primary">Hakkımızda</button>
+    <button class="btn btn-primary">Haberler</button>
+    <div class="btn-group">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">İletişim</button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Email</a>
+            <a href="#" class="dropdown-item">Instagram</a>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+

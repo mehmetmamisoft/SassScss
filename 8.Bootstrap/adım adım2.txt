@@ -1,0 +1,142 @@
+11.badge etiket
+ <span class="badge badge-danger">Tükendi</span> badge badge-pill badge-danger
+buton içi gelen mesaj 4 için
+<button class="btn btn-primary">
+Mesajlar <span class="badge badge-light">4</span></button>
+******************************************
+12.progress bar
+<div class="progress">
+    <div class="progress-bar" style="width:50%;">50%</div>
+    <div class="progress-bar bg-dark  " style="width:50%;">50%</div>
+    <div class="progress-bar progress-bar-striped  " style="width:50%;">50%</div>
+    <div class="progress-bar progress-bar-striped progress-bar-animated  " style="width:50%;">50%</div>
+
+</div>
+
+******************************************
+13.Spinner(dönme)
+<div class="spinner-border text-danger"></div>
+<div class="spinner-grow text-danger"></div>
+<button class="btn btn-primary disabled">
+    Loading<span class="spinner-border spinner-border-sm"></span>
+</button>
+******************************************
+14.pagination
+ <ul class="pagination justify-content-center">
+        <li class="page-item disabled"><a href="#" class="page-link">Önceki Sayfa</a></li>
+        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">Sonraki Sayfa</a></li>
+  <ul class="breadcrumb">
+        <li class="breadcrumb-item "><a href="#">2017</a></li>
+        <li class="breadcrumb-item "><a href="#">Kasım</a></li>
+        <li class="breadcrumb-item active">1.Haber</li>
+
+14.Listgroups
+  <ul class="list-group list-group-flush" style="margin:20px"> /alttan çizgi/
+    <ul class="list-group list-group-horizontal" style="margin:20px">/yatayda/
+
+  <ul class="list-group list-group-horizontal" style="margin:20px">
+        <li class="list-group-item list-group-item-action d-flex justify-content-between">first item
+            <span class="badge badge-primary badge-pill">25</span>
+        </li>
+
+        <li class="list-group-item list-group-item-action">first item</li>
+        <li class="list-group-item list-group-item-action">Second Item</li>
+        <li class="list-group-item list-group-item-action">Third Item</li>
+    </ul>      
+
+***********************
+15.Cards
+<div class="container">
+        <div class="card bg-primary text-white" style="border:1px solid red;">
+            <div class="card-header">header kısmı</div>
+            <div class="card-body">Kartın Body'sidir</div>
+            <div class="card-footer">Kart Footer Kısmı</div>
+        </div>
+    </div>
+
+   <div class="container">
+        <class class="card " style="width:400px;">
+            <div class="card-body">
+                <h3 class="card-title">Card Title</h3>
+                <p class="card-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae laudantium soluta delectus sapiente neque rem consequuntur, doloremque velit et. Aut nulla, eligendi omnis suscipit quo ratione a molestias, nisi blanditiis, sint voluptate commodi! Provident autem eius veniam veritatis dicta!</p>
+                <a href="#" class="card-link" >Link-1</a>
+                <a href="#" class="card-link" >Link-2</a>
+            </div>
+            <!-- <img class="card-img-top" src="https://www.superiorwallpapers.com/bugatti/gorgeous-orange-bugatti-veyron-w16-on-the-shore-of-sea_5120x2880.jpg" alt="" width="100%"> -->
+            <img class="card-img-bottom" src="https://www.superiorwallpapers.com/bugatti/gorgeous-orange-bugatti-veyron-w16-on-the-shore-of-sea_5120x2880.jpg" alt="" width="100%">
+
+
+        </div>
+    </div>
+
+
+***********************
+15.Dropdown
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle"
+  <ul class="dropdown-menu"  
+    <li><button class="dropdown-item" type="button">Action</button></li>
+    <li><button class="dropdown-item" type="button">Another action</button></li>
+    <li><button class="dropdown-item" type="button">Something else here</button></li>
+  dropdown-menu btn-group  dropdown-item
+
+16.collapse accordion!!!
+card collapse
+
+17.navs(mobile uyumlu)
+nav-tabs pills
+18.navbar responsive uyumlu menu
+19.forms
+form-group form-check ve ne istersen hacu abey!!!
+20.carsuaesl slider 
+https://getbootstrap.com/docs/4.6/components/carousel/#slides-only
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://static.dw.com/image/51817152_303.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+21.Modals
+modal modalfade modaldialog modalheader title body footer 
+  <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta inventore rerum temporibus molestias.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+22.Media
+
+
+
+
