@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 13px;
+}
+header{
+    width: 100%;
+    height: auto;
+ 
+
+}
+.bannerHeader{
+    width: 100%;
+height: 38rem;
+}
+.headerInfo{
+    position: absolute;
+    
+    width: 80%;
+    height: auto;
+    top: 30%;
+    
+    left: 10%;
+    
+}
+.headerInfo h1{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.selectSet{
+    width: 100%;
+height: auto;
+    margin-top: 1rem;
+}
+
+main{
+    
+    width: 100%;
+    height: 250rem;
+}
+#otelTanitim{
+    width: 100%;
+    height: 84rem;
+    background-color:#464854;
+    padding: 2rem;
+}
+.otelResim{
+    background-image: url(img/hotelTanitim.jpg);
+    width: 100%;
+height: 50rem;
+    background-size: cover;
+    background-position: center;
+    
+}
+.otelInfo h1{
+    color: white;
+    margin-top: 1rem;
+}
+
+
+.otelInfo p{
+    color: white;
+    line-height: 2rem;
+}
+
+#odalar{
+    width: 100%;
+height: 127rem;
+    background-image: url(img/odalar.jpg);
+    background-size: cover;
+    background-position: right;
+    padding: 3rem;
+}
+#yorumlar{
+    width: 100%;
+    height: 35rem;
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.pencere{
+     width: 6rem;
+    height: 6rem;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    
+padding-top: .3rem;
+    margin-right: .5rem;
+    
+}
+.profileImageBoy{
+    width: 5rem;
+    height: 5rem;
+    background-image: url(img/boy.png);
+    background-size: cover;
+    margin: auto;
+}
+
+.profileImageGirl{
+    width: 5rem;
+    height: 5rem;
+    background-image: url(img/girl.png);
+    background-size: cover;
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color:#464854;
+    padding: 2rem;
+}
+
+
+#sectionFooter{
+    width: 100%;
+    height: 18rem;
+   
+    
+}
+#sectionFooter h1{
+    color: white;
+    text-align: center;
+}
+
+#sectionFooter hr{
+    background-color: white;
+   
+}
+#sectionFooter p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:800px){
+    html{
+        font-size: 15px;
+    }
+    .otelResim{
+        background-position: top;
+    }
+}
+
+
+@media screen and (min-width:1200px){
+    html{
+        font-size: 17px;
+    }
+    .headerInfo select{
+        width: 30%;
+        margin-left: 1rem;
+    }
+    .headerInfo button{
+        margin-right: 3.1rem;
+    }
+    .otelResim{
+        width: 49%;
+        height: 32rem;
+        float: left;
+        margin-right: 1rem;
+      
+    }
+    .otelInfo{
+        width: 49%;
+        float: left;
+    }
+    #otelTanitim{
+        height: 37rem;
+    }
+    #odalar .jumbotron:nth-child(odd){
+        width: 48%;
+        float: left;
+    }
+     #odalar .jumbotron:nth-child(even){
+        width: 48%;
+        float: right;
+    }
+    #odalar{
+        height:71rem;
+    }
+    main{
+        height: auto;
+    }
+    footer{
+        height: 20rem;
+    }
+    #sectionFooter{
+        width: 32%;
+        float: left;
+        margin-left: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

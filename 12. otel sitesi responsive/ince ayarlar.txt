@@ -1,0 +1,24 @@
+1.google fonts'a gelduk -->|||||https://fonts.google.com/specimen/Hind?query=hind
+
+2.bootstrap ekleduk -->4.3.1 yükledik css js kopyaladuk!
+
+3.bootstrap hackerteamse gelduk
+4.header tanımla css html yaz!
+önüne html tanımla
+5.header içine navbar ekleduk!!!
+6.slide ekleduk(position:absolute verdik içine yazı yazduk!!!)
+7.menu açtuk içine 3 section vercez gare
+ilk section içine h1 ve p verduk
+ikinci.section jumbotron var resim üstüne onu atcez gare!!!
+üçüncü section yorumlar kısmı jumbotram yaptık2 tene
+8.footer kısmındayuk! table ekleduk
+
+9.Responsive tasarım ve Media!!!
+responsive tasarım için -->    <meta name="viewport" content="width-device-width">
+
+
+
+
+
+
+

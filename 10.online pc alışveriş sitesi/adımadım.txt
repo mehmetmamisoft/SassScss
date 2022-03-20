@@ -1,0 +1,36 @@
+1.json içini doldurduk 
+https://getbootstrap.com/docs/4.4/getting-started/introduction/ bootstrap js leri yükledik
+jquerycdn google yükle burda bootstrap hata veriyi alttaki jquery slim olanı sildik!
+
+2.nav ve header yükledik
+menü sağda
+        <nav class="navbar navbar-expand bg-dark navbar-dark justify-content-between d-flex">
+3.slider aç carouser ve icon ver
+indicators>>caption>inner>item>prev(next icon)
+ve header bitti
+4.json datayı çekcez 
+değişken oluştur open send sonra onload status if else parse!!!!
+
+let bringAllProducts = new Promise((resolve, reject) => {
+    var xhr = new XMLHttpRequest();
+    xhr.onload = function () { //işlem gerçekleşirse bunu yap
+        if (xhr.status === 200) { 
+            console.log(xhr.responseText);
+            resolve();//hiçbir sorun yoksa başarılıysa resolve
+        } else {
+            reject();//başarısızsa reject
+
+        }
+
+    }
+    xhr.open("GET", "./data/urunler.json", true); //asenkron yapı
+    xhr.send();
+});
+
+bringAllProducts.then((result)=>console.log(""));
+
+console.log'da xhr json.parse içine diziye atman lazım
+            console.log(JSON.parse(xhr.responseText));
+5.card oluşturduk 
+
+
