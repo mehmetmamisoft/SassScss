@@ -1,0 +1,81 @@
+
+eş zamansız programlama
+videoo3 asekron yappı video 240
+
+json
+ tıpkıobject tanımlar gibi yapcez
+ ürünü butonda göstercez jquery'de ekliyik(jquerycdn google script ekleduk)
+{} object demek
+
+{
+  "urunId":0,
+  "urunAdi":"Elma",
+  "urunStok":true,
+  "urunAciklama":"Taze meyve güzel ürünüdür",
+  "urunDetay":["Kırmızı","Orta büyüklükte","İthal"]
+
+}
+
+JSON 2.Örneğe geçtuk!!!!
+birden çok json varsa [] yap gel"
+uzunyolu
+$("button").click(function () {
+    var xhr = new XMLHttpRequest();
+
+    xhr.onload = function () {
+        if (this.status === 200) {
+            var kisilerim = JSON.parse(this.responseText);
+            // console.log(kisilerim); sonra for'la html'ye dökcez//burda dizi içine al sonra parçala
+            for (let i = 0; i < kisilerim.length; i++) {
+                $(".card-deck").append('<div class="card"><div class="card-header" ><h4 class="card-title">'+kisilerim[i]['userName']+ ''+kisilerim[i]["userSurname"]+'</h4></div><div class="card-body"><p class="card-text">'+kisilerim[i]["age"]+'</p></div></div > ');
+            
+        }
+        } else {
+            $(".display-3").text("Hata kişiler dosyası bulunamadı!");
+
+        }
+
+    };
+
+
+
+    xhr.open("GET", "kisiler.json", true);
+    xhr.send();
+
+});
+
+
+
+kısayolu foreach içinde
+
+$("button").click(function () {
+    var xhr = new XMLHttpRequest();
+
+    xhr.onload = function () {
+        if (this.status === 200) {
+            var kisilerim = JSON.parse(this.responseText);
+            kisilerim.forEach(kisi => {
+                $(".card-deck").append('<div class="card"><div class="card-header"><h4 class="card-title">'+kisi['userName']+ ''+kisi["userSurname"]+'</h4></div><div class="card-body"><p class="card-text">'+kisi["age"]+'</p></div></div > ');   
+                
+            });
+                    
+        } else {
+            $(".display-3").text("Hata kişiler dosyası bulunamadı!");
+
+        }
+
+    };
+
+
+
+    xhr.open("GET", "kisiler.json", true);
+    xhr.send();
+
+});
+
+
+
+
+
+
+

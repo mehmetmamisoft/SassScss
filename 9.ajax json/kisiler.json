@@ -1,0 +1,26 @@
+[
+  {
+    "userId": 0,
+    "userName": "Mehmet",
+    "userSurname": "Seydal",
+    "age": 36
+  },
+  {
+    "userId": 1,
+    "userName": "Serdar",
+    "userSurname": "Demir",
+    "age": 40
+  },
+  {
+    "userId":2,
+    "userName":"Eyüp",
+    "userSurname":"Selvioğlu",
+    "age":41
+  },
+  {
+    "userId":3,
+    "userName":"Sercan",
+    "userSurname":"Menevşe",
+    "age":29
+  }
+]
