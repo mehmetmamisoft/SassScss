@@ -1,0 +1,105 @@
+css'e daha çok benzer
+*{
+tüm h1 p elemanlar hepsini margin ve padding değerini 0 yaptuk
+    margin: 0;
+    padding: 0;
+}
+
+$primary-color:#333333;
+$second-color:red;
+
+body{
+    background-color: $primary-color;
+
+}
+h1{
+    color: $second-color;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Scss Başlık</h1>
+    <div class="section-1"></div>
+    <div class="section-2"></div>
+    <div class="section-3"></div>
+
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333333;
+}
+
+h1 {
+  color: red;
+}
+
+.section-1 {
+  border: 1px solid black;
+  width: 25%;
+  height: 300px;
+}
+
+.section-2 {
+  border: 1px solid black;
+  width: 25%;
+  height: 300px;
+}
+
+.section-3 {
+  border: 1px solid black;
+  width: 25%;
+  height: 300px;
+}
+/*# sourceMappingURL=style.css.map */
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAA;EACA,gBAAgB,EATL,OAAO;CAWrB;;AACD,AAAA,EAAE,CAAA;EACE,KAAK,EAZK,GAAG;CAahB;;AAUG,AAAA,UAAU,CAAI;EAPd,MAAM,EAAC,eAAe;EACtB,KAAK,EAAC,GAAG;EACT,MAAM,EAAE,KAAK;CAQZ;;AAHD,AAAA,UAAU,CAAI;EAPd,MAAM,EAAC,eAAe;EACtB,KAAK,EAAC,GAAG;EACT,MAAM,EAAE,KAAK;CAQZ;;AAHD,AAAA,UAAU,CAAI;EAPd,MAAM,EAAC,eAAe;EACtB,KAAK,EAAC,GAAG;EACT,MAAM,EAAE,KAAK;CAQZ",
+    "sources": [
+        "style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
+$primary-color:#333333;
+$second-color:red;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $primary-color;
+
+}
+h1{
+    color: $second-color;
+}
+
+@mixin card{
+    border:1px solid black;
+    width:25%;
+    height: 300px;
+
+}
+
+@for $i from 1 through 3  {
+    .section-#{$i}{
+      @include card;
+
+    }
+    
+}
