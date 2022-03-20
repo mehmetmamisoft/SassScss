@@ -1,0 +1,32 @@
+Cihaz genişliği    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+Media özellik
+/*0-600 arası tlf için*/
+@media only screen and (max-width:600px)
+{
+    .firstStep{
+        width: 100%;
+        clear: both;/*floattan kurtulduk ve önceki özellik kapattık*/
+    }
+
+.secondStep{
+ 
+     width: 100%;
+     clear: both;
+     }
+}
+
+/*min:768px ve max-1030px arası tablet için*/
+@media only screen and (min-width:768px) (max-width:1030px)
+{
+    .firstStep{
+        width: 50%;
+     /* clear: both; */
+          
+    }
+
+.secondStep{
+ 
+     width:50%;
+     /* clear: both; */
+     }
+}

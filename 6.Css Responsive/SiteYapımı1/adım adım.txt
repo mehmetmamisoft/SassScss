@@ -1,0 +1,18 @@
+ilk önce css sonra sass'la yapcez
+* ve body içine yaz
+****************
+1.nav oluştur arka plan width height ver
+responsive oldugu zaman height aynı kalıyor ondan dolayı 
+Html css'i yazıyık!!!
+html{
+    font-size: 16px;  -->1rem 
+    }
+*******************
+2.header
+background image:url() background-size:cover(kapla)contain(içer) background -position:center
+
+*******************
+3.header dışına section yapıyık!!
+  margin:auto;/*eğer ortalanmıyorsa sorun display'dendir*/
+  display: block;
+İmg için otomatik dipslay inline block yapıyı

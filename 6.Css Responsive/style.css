@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+margin: 0;
+padding: 0;
+}
+
+.firstStep{
+    width: 50%;
+    height: 200px;
+    background-color:blue;
+    float:left;/*yanyana gelsin */
+}
+
+
+.secondStep{
+    width: 50%;
+    height: 200px;
+    background-color:red;
+    float: left;
+}
+
+@media only screen and (orientation: portrait)
+{
+.firstStep{
+    width: 100%;
+    clear: both;
+
+       }
+
+.secondStep{
+    width: 100%;
+    clear: both;
+  
+
+
+           }
+}

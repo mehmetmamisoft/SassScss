@@ -1,0 +1,38 @@
+
+@for $i from 1 through 2
+    #content-#{$i}
+        border: 10px solid red
+        width: 100%
+        height: auto
+        @if $i==1
+            background-color: whitesmoke
+
+        @for $k from 1 through 4
+            .item-#{$k}
+                width: 100%
+                height: 100%
+                border: 1px solid green
+                h1
+                    text-align: center
+                p
+                    text-align: center
+                img
+                    display: block
+                    margin: auto
+                button
+                    width: 85%
+                    height: 3rem
+                    margin: auto
+                    display: block
+                    background-color:#70AA7E
+                    border: none
+                    border-radius: 4px
+                    &:hover
+                        cursor: pointer
+                        background-color:#588f65 
+                @if $k==1
+                    a
+                        text-decoration: none
+                        color: green
+
+
